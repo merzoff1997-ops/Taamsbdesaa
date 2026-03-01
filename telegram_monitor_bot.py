@@ -614,7 +614,7 @@ class TelegramMonitor:
 # ════════════════════════════════════════════════════════════════
 
 # Глобальные объекты
-bot = Bot(token=BOT_TOKEN, parse_mode="HTML")
+bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher(storage=MemoryStorage())
 router = Router()
 storage = DataStorage()
